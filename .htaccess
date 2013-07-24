@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^test_stat/(\w+)/$ test_stat.php?test_id=$1 [QSA,L]
+
+ErrorDocument 404 /404.php
+

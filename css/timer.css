@@ -1,0 +1,12 @@
+#timer {
+position: fixed;
+bottom:500px;
+right:500px;
+color: white;
+border: 1px solid #ccc;
+padding: 5px;
+cursor: pointer;
+background: #006699;
+text-decoration: none;
+width:50px;
+}

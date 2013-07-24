@@ -1,0 +1,24 @@
+#outer{
+	width: 100%;
+	text-align: center;
+}
+#inner{
+	display: inline-block;
+	border: 1px solid gray;
+	width: 700px;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	box-shadow: 5px 5px 15px #A0A0A0;
+	-moz-box-shadow: 5px 5px 15px #A0A0A0;
+	-webkit-box-shadow: 5px 5px 15px #A0A0A0;
+	font-family: Arial;
+	font-size: 25px;
+}
+#main_footer{
+	width: 85%;
+	position: absolute;
+	bottom: 25px;
+}

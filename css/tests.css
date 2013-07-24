@@ -1,0 +1,11 @@
+label{
+	text-align: center;
+	float: none;
+	font-weight: bold;
+	margin-right: 10px;
+	width: 300px;
+	line-height: 25px;
+	font-size: 45px;
+	color: #FFA000;
+	text-shadow: 1px 1px 3px #080808;
+}

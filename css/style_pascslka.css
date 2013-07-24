@@ -1,0 +1,10 @@
+body{
+	background-color: black;
+}
+#main{
+	text-align: center;
+}
+#secret{
+	display: none;	
+	text-align: center;
+}
